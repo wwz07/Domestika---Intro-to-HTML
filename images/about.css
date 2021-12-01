@@ -1,18 +1,48 @@
-div{
-    background-color: antiquewhite;
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+
+
+/* My CSS style starts here */
+*{
+    box-sizing:border-box;
 }
 
-.navbar{
-    background-color: burlywood;
-    position:absolute;
-    height:8%;
-    width:96%;
-    right:2%;
-    top:2%;  
+body{
+    background-color:antiquewhite;
 }
+
+div{
+    background-color: burlywood;
+    margin:2%;
+}
+
+.first{
+    height:80px;
+}
+
+.second{
+    height:190px;
+    
+}
+
+.rowblock{
+    overflow: hidden;
+    display:block;
+    height:190px;
+}
+.couple{
+    height:190px;
+    width:49%;
+    
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
 
