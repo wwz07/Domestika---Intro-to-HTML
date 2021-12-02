@@ -1,38 +1,35 @@
 
 
 /* My CSS style starts here */
-*{
-    box-sizing:border-box;
-}
 
 body{
     background-color:antiquewhite;
 }
 
-div{
-    background-color: burlywood;
-    margin:2%;
-}
-
 .first{
-    height:80px;
+    background-color: burlywood;
+    height:60px;
+    margin:2%;
+    display:block;
 }
 
 .second{
-    height:190px;
+    background-color: burlywood;
+    height:120px;
+    margin:2%;
     
 }
 
 .rowblock{
-    overflow: hidden;
-    display:block;
-    height:190px;
+    height:120px;
+      
 }
 .couple{
-    height:190px;
-    width:49%;
-    
+    background-color: burlywood;
+    height:120px;
+    width:47%;
     float:left;
+    margin-left:2%;
 }
 
 
