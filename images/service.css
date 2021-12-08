@@ -71,15 +71,10 @@ body{
 }
 
 .boxes{
-    height:50vh;
-    float:left;
-    width:24.8%;
-    padding:10px;
     color:#fff;
-    margin:0.1%
+    
+    
 }
-
-
 
 #latinquote{
     font-style: italic;
@@ -90,15 +85,27 @@ body{
 }
 #box1{
     background-color: #544179;
+    float:left;
+    width:25%;
+    padding:8px;
 }
 #box2{
     background-color: #6166B3;
+    float:left;
+    width:25%;
+    padding:8px;
 }
 #box3{
     background-color: #32C1CD;
+    float:left;
+    width:25%;
+    padding:8px;
 }
 #box4{
     background-color: #17D7A0;
+    float:left;
+    width:25%;
+    padding:8px;
 }
 
 @media screen and(max-width:800px){
