@@ -173,7 +173,7 @@ a{
 }
 
 .navigation li{
-    transition:0.05s font-size 0.01s;
+    transition:0.05s font-size 0.05s;
 }
 
 
@@ -198,7 +198,30 @@ a{
   font-weight: 600;
 }
 
-@media screen and (min-width:600px){
+@media screen and (max-width:600px){
+  .js .navigation{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    position:absolute;
+    top:43px;
+    left:30px;
+    right:30px;
+    background-color: #6b9b8a;
+  }
+
+  .js .navigation a{
+    padding:5px 10px;
+    color:#f8f8f6;
+    border-top: 1px solid #f8f8f6;
+  }
+
+  .js .navigation .nav_item{
+    max-height:200px;
+  }
+}
+
+@media screen and (min-width:601px){
     .menu_button{
         display:none;
     }
