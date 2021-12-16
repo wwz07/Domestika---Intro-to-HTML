@@ -7,7 +7,7 @@ var popper ="#menu-popper";
 var unfold="#menu";
 
 /*class (without the dot) that shows the menu*/
-var display_class="navigation";
+var display_class="menu_popup";
 
 /* From here you can leave the code as is*/
 
