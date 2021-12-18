@@ -178,7 +178,7 @@ a{
 
 
 .navigation li:hover{
-    font-size:24px;;
+    font-size:18px;;
     
 }
 
@@ -204,19 +204,19 @@ a{
     overflow: hidden;
     transition: max-height 0.5s;
     position:absolute;
-    top:43px;
-    left:30px;
-    right:30px;
+    top:50px;
+    left:50px;
+    right:50px;
     background-color: #6b9b8a;
   }
 
   .js .navigation a{
     padding:5px 10px;
     color:#f8f8f6;
-    border-top: 1px solid #f8f8f6;
+    
   }
 
-  .js .navigation .nav_item{
+  .js .navigation.menu_popup{
     max-height:200px;
   }
 }
