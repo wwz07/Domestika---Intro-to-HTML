@@ -61,6 +61,7 @@ body{
 	background-repeat: no-repeat;
 	background-size:100% auto;
 	color:#f5f0ed;
+	display:block;
 }
 
 .navbar{
@@ -71,7 +72,8 @@ body{
 
 .logo{
 	float: left;
-	margin:24px;
+	margin-top:24px;
+	margin-left:24px;
 }
 
 .navigation li{
@@ -79,16 +81,17 @@ body{
 	padding:16px;
 	margin-top:32px;
 	font-weight: 600;
+	font-size:12px;
 }
 
 .caption{
-	font-size:32px;
+	font-size:44px;
 	font-weight:800;
-	height:150px;
-	width:350px;
+	max-height:150px;
+	width:400px;
 	margin-left:auto;
 	margin-right:auto;
-	padding-top: 200px;
+	padding-top: 64px;
 	text-align:center;
 }
 
@@ -97,14 +100,38 @@ body{
 }
 
 .caption #caption3{
-	font-weight:400;
+	font-weight:300;
 }
 
 .subcaption{
-	height:300px;
+	height:auto;
 	width:510px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	line-height: 1.5;
+	padding-top:36px;
+	padding-bottom:12px;
+	font-size:16px;
+	
+}
+
+.secondrow{
+	width:50%;
+}
+
+.secondrow h2{
+	font-size:24px;
+}
+
+.secondrow .promo1{
+	display:inline-block;
+	background-color: #d03b40;
+	color:#ded6c0;
+	height:120px;
+}
+.secondrow .promo2{
+	display:inline-block;
+	background-color: #ded6c0;
+	color:#d03b40;
 }
