@@ -138,13 +138,6 @@ body{
 	font-weight: 700;
 }
 
-.secondrow p{
-	font-size:16px;
-	text-align:center;
-	padding-top:24px;
-
-}
-
 .promo1, .promo2{
 	float:left;
 	width:50%;
@@ -152,7 +145,20 @@ body{
 	text-align: center;
 }
 
- .promo1{
+.subpromo{
+	font-size:12px;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	line-height:1.5;
+}
+
+.subpromo strong{
+	font-weight:bold;
+}
+
+.promo1{
 	background-color: #d03b40;
 	color:#ded6c0;
 }
@@ -229,4 +235,11 @@ body{
 	width:100%;
 	height:100px;
 	padding-top:40px;
+	position:relative;
+}
+
+.patent{
+	position:absolute;
+	top:50%;
+	margin-left:24px;
 }
