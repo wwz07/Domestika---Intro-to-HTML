@@ -124,9 +124,11 @@ body{
 	width:100%;
 	height:100px;
 }
+
 .secondrow{
 	width:100%;
 	height:350px;
+	
 }
 
 .secondrow h2{
@@ -140,13 +142,16 @@ body{
 	font-size:16px;
 	text-align:center;
 	padding-top:24px;
+
 }
 
 .promo1, .promo2{
 	float:left;
 	width:50%;
 	height:350px;
+	text-align: center;
 }
+
  .promo1{
 	background-color: #d03b40;
 	color:#ded6c0;
@@ -182,26 +187,28 @@ body{
 	width:100%;
 	height:350px;
 	background-color: #f5f0ed;
-	padding:20px;
+	padding-top:48px;
+	
 }
 
 .productprofile{
 	width:47%;
 	height:175px;
 	float:left;
-	padding-right:10px;
-	padding-bottom:10px;
+	
 	
 }
 
 .menulogo{
 	width:33%;
 	float:left;
-	
+	text-align: center;
 }
 
 .menulogo img{
-	width:90%;
+	width:70%;
+	height:auto;	
+	
 }
 
 .menudescrip{
@@ -213,6 +220,7 @@ body{
 
 .menudescrip h3{
 	font-weight:700;
+	font-size:16px;
 }
 
 .sixthrow{
