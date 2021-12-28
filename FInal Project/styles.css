@@ -71,7 +71,8 @@ a{
     background-image: url(Images/Fondo1.jpg);
 	min-width: 755px;
 	background-repeat: no-repeat;
-	background-size:100% auto;
+	background-size:cover;
+	background-position: center;
 	color:#f5f0ed;
 }
 
@@ -179,9 +180,8 @@ a{
 .thirdrow{
     background-image: url(Images/Fondo2.jpg);
 	min-width: 755px;
-	
 	background-repeat: no-repeat;
-	background-size:100% auto;
+	background-size:cover;
 	color:#f5f0ed;
 }
 
@@ -199,9 +199,10 @@ a{
 
 .fourthrow{
 	width:100%;
-	height:350px;
+	min-height:350px;
 	background-color: #f5f0ed;
-	padding-top:48px;
+	padding-top:64px;
+	padding-bottom:48px;
 	
 }
 
