@@ -97,10 +97,11 @@ a{
 }
 
 .caption{
+	display:block;
 	font-size:44px;
 	font-weight:800;
 	max-height:150px;
-	width:500px;
+	width:45%;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top: 64px;
@@ -261,7 +262,19 @@ a{
 	.firstrow{
 		width:100%;
 	}
+
+	.navigation li{
+		display:none;
+	}
+
+	.caption{
+		font-size:32px;
+		width:80%;
+	}
 	
+	.subcaption{
+		width:80%;
+	}
 	.promo1, .promo2{
 		width:100%;
 	}
@@ -270,15 +283,28 @@ a{
 		display: inline-block;
 	}
 
+	.fourthrow{
+		height:1100px;
+	}
 	.productprofile{
 		width:100%;
+		height:270px;
 	}
 
 	.menulogo{
-		display:block; 
+		float:none;
 		margin-left:auto;
 		margin-right:auto;
+		width:35%;
 	}
+
+	.menudescrip{
+		width:90%;
+		margin-left:24px;
+		
+	}
+
+	
 
 	
 }
