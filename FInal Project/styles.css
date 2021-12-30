@@ -87,6 +87,9 @@ a{
 	margin-left:24px;
 }
 
+.menu_button{
+	display:none;
+}
 .navigation li{
 	float:right;
 	padding:16px;
@@ -101,7 +104,7 @@ a{
 	font-size:44px;
 	font-weight:800;
 	max-height:150px;
-	width:45%;
+	width:50%;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top: 64px;
@@ -194,8 +197,7 @@ a{
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
-	border:1px solid #f5f0ed;
-	
+	border:1px solid #f5f0ed;	
 }
 
 .fourthrow{
@@ -267,6 +269,16 @@ a{
 		display:none;
 	}
 
+	.menu_button{
+		display:block;
+		font-size:32px;
+		font-weight:bolder;
+		padding:0px 4px 4px;
+		position:absolute;
+		top:0;
+		right:0;
+		margin:16px;
+	}
 	.caption{
 		font-size:32px;
 		width:60%;
